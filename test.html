@@ -1,0 +1,8 @@
+<script src="node_modules/react/dist/react.js"></script>
+<script src="node_modules/react-dom/dist/react-dom.js"></script>
+<div id="app"></div>
+<script>
+const myButton = React.createElement("button", null, "click me!")
+console.log(JSON.stringify(myButton))
+ReactDOM.render(myButton, document.getElementById("app"))
+</script>
